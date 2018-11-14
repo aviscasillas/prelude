@@ -58,7 +58,10 @@
 (setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
 
 ;; Disable scrollbars
-(scroll-bar-mode -1)
+(if (display-graphic-p)
+    (progn
+      (tool-bar-mode -1)
+      (scroll-bar-mode -1)))
 
 ;; Multi-term config
 (setq multi-term-program "/bin/zsh")
