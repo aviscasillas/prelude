@@ -1,0 +1,5 @@
+(prelude-require-package 'key-chord)
+(key-chord-mode 1)
+(key-chord-define-global "kk" 'next-multiframe-window)
+(key-chord-define-global "jj" 'previous-multiframe-window)
+(key-chord-define-global "xx" 'smex)

@@ -13,10 +13,6 @@
 (prelude-require-package 'rspec-mode)
 (setq rspec-use-rake-when-possible nil)
 
-(key-chord-define-global "kk" 'next-multiframe-window)
-(key-chord-define-global "jj" 'previous-multiframe-window)
-(key-chord-define-global "xx" 'smex)
-
 (display-time-mode 1)
 
 (global-set-key (kbd "C-c C-c") 'comment-or-uncomment-region)
