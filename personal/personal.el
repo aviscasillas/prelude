@@ -34,10 +34,6 @@
 ;; disable whitespace mode
 (setq prelude-whitespace nil)
 
-;; Short cut for ace-window
-(global-set-key (kbd "M-SPC") 'ace-window)
-(setq aw-keys '(?a ?s ?d ?f ?g ?h ?j ?k ?l))
-
 ;; Multi-term config
 (setq multi-term-program "/bin/zsh")
 ;; Use Emacs terminfo, not system terminfo
